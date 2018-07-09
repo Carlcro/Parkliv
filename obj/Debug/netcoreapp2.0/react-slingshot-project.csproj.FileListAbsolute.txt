@@ -1,0 +1,10 @@
+/Users/carlcronsioe/Documents/react-slingshot-project/bin/Debug/netcoreapp2.0/react-slingshot-project.deps.json
+/Users/carlcronsioe/Documents/react-slingshot-project/bin/Debug/netcoreapp2.0/react-slingshot-project.runtimeconfig.json
+/Users/carlcronsioe/Documents/react-slingshot-project/bin/Debug/netcoreapp2.0/react-slingshot-project.runtimeconfig.dev.json
+/Users/carlcronsioe/Documents/react-slingshot-project/bin/Debug/netcoreapp2.0/react-slingshot-project.dll
+/Users/carlcronsioe/Documents/react-slingshot-project/bin/Debug/netcoreapp2.0/react-slingshot-project.pdb
+/Users/carlcronsioe/Documents/react-slingshot-project/obj/Debug/netcoreapp2.0/react-slingshot-project.csproj.CoreCompileInputs.cache
+/Users/carlcronsioe/Documents/react-slingshot-project/obj/Debug/netcoreapp2.0/react-slingshot-project.AssemblyInfoInputs.cache
+/Users/carlcronsioe/Documents/react-slingshot-project/obj/Debug/netcoreapp2.0/react-slingshot-project.AssemblyInfo.cs
+/Users/carlcronsioe/Documents/react-slingshot-project/obj/Debug/netcoreapp2.0/react-slingshot-project.dll
+/Users/carlcronsioe/Documents/react-slingshot-project/obj/Debug/netcoreapp2.0/react-slingshot-project.pdb
