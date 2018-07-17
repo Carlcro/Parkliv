@@ -1,9 +1,8 @@
-import React from 'react';
-import MemberListRow from './MemberListRow';
-import PropTypes from 'prop-types';
+import React from "react";
+import MemberListRow from "./MemberListRow.jsx";
+import PropTypes from "prop-types";
 
-
-const MemberList = ({members}) => {
+const MemberList = ({ members }) => {
   return (
     <table className="table">
       <thead>
@@ -13,9 +12,9 @@ const MemberList = ({members}) => {
         </tr>
       </thead>
       <tbody>
-      {members.map(member =>
-      <MemberListRow key={member.id} member={member}/>
-      )}
+        {members.map(member => (
+          <MemberListRow key={member.id} member={member} />
+        ))}
       </tbody>
     </table>
   );
