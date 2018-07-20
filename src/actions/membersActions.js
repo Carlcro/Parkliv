@@ -29,7 +29,7 @@ export function deleteMemberSuccess(member) {
   return {
     type: types.DELETE_MEMBER_SUCESS,
     member
-  }
+  };
 }
 
 export function loadMembers() {
@@ -82,7 +82,6 @@ export function updateMember(member) {
 
 export function deleteMember(member) {
   return function (dispatch) {
-    debugger;
     axios.delete('/api/members/' + member.id)
       .then(() => {
         dispatch(deleteMemberSuccess(member));

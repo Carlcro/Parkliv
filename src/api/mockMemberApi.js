@@ -3,8 +3,7 @@ import delay from './delay';
 // This file mocks a web API by working with the hard-coded data below.
 // It uses setTimeout to simulate the delay of an AJAX call.
 // All calls return promises.
-const members = [
-  {
+const members = [{
     id: "react-flux-building-applications",
     title: "Building Applications in React and Flux",
     watchHref: "http://www.pluralsight.com/members/react-flux-building-applications",
@@ -56,13 +55,7 @@ const generateId = (member) => {
 };
 
 class MemberApi {
-  static getAllMembers() {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(Object.assign([], members));
-      }, delay);
-    });
-  }
+
 
   static saveMember(member) {
     member = Object.assign({}, member); // to avoid manipulating object passed in.
@@ -87,18 +80,6 @@ class MemberApi {
         }
 
         resolve(member);
-      }, delay);
-    });
-  }
-
-  static deleteMember(memberId) {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        const indexOfMemberToDelete = members.findIndex(member => {
-          member.id == memberId;
-        });
-        members.splice(indexOfMemberToDelete, 1);
-        resolve();
       }, delay);
     });
   }

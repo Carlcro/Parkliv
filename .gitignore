@@ -38,3 +38,8 @@ dist
 
 # Mac files
 .DS_Store
+obj/Debug/netcoreapp2.0/react-slingshot-project.dll
+bin/Debug/netcoreapp2.0/react-slingshot-project.dll
+bin/Debug/netcoreapp2.0/react-slingshot-project.pdb
+obj/Debug/netcoreapp2.0/react-slingshot-project.pdb
+obj/Debug/netcoreapp2.0/react-slingshot-project.csproj.FileListAbsolute.txt

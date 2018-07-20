@@ -27,13 +27,6 @@ const generateId = (member) => {
 };
 
 class MemberApi {
-  static getAllMembers() {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(Object.assign([], members));
-      }, delay);
-    });
-  }
 
   static saveMember(member) {
 	member = Object.assign({}, member); // to avoid manipulating object passed in.
@@ -65,17 +58,6 @@ class MemberApi {
     });
   }
 
-  static deleteMember(memberId) {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        const indexOfMemberToDelete = members.findIndex(member => {
-          member.id == memberId;
-        });
-        members.splice(indexOfMemberToDelete, 1);
-        resolve();
-      }, delay);
-    });
-  }
 }
 
 export default MemberApi;
